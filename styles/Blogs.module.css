@@ -1,0 +1,25 @@
+.container {
+  padding: 0 2rem;
+}
+.main {
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogs {
+  cursor: pointer;
+}
+
+.desc {
+  max-width: 45vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
+}

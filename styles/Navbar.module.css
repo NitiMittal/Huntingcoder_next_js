@@ -1,0 +1,17 @@
+.mainnav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mainnav li {
+  list-style-type: none;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainnav li {
+    margin-right: 10px;
+  }
+}
